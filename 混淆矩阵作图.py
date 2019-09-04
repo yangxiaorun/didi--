@@ -49,3 +49,12 @@ def read():
 
 if __name__ == '__main__':
     read()
+    
+    '''
+    https://blog.csdn.net/l691899397/article/details/52291909 卷积神经网络map变化
+    https://blog.csdn.net/blogshinelee/article/details/84826837 直观理解神经网络最后一层全连接+Softmax
+    https://blog.csdn.net/GoodShot/article/details/79330545 对于全连接层的理解 全连接层的推导
+    现在的趋势是尽量避免全连接，目前主流的一个方法是全局平均值。
+    也就是最后那一层的feature map（最后一层卷积的输出结果），直接求平均值。有多少种分类就训练多少层，这十个数字就是对应的概率或者叫置信度。
+    https://blog.csdn.net/whyymlm/article/details/79739840 CNN（卷积层convolutional layer，激励层activating layer，池化层pooling，全连接层fully connected）
+    '''
